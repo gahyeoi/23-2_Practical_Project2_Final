@@ -46,6 +46,10 @@ input[type="date"] {
         margin: 5px;
     }
 
+    .fs-4 {
+        font-size: 16px; /* 원하는 크기로 조정하세요 */
+    }
+
     .navnav-pills {
         flex-direction: column;
     }
