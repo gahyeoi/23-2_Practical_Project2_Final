@@ -1,0 +1,50 @@
+.container {
+    width: 100%;
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Noto Serif KR', serif;
+}
+.h3{
+    font-size:20px;
+}
+table {
+    align-items: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+/* 데스크탑 화면 스타일 */
+@media screen and (min-width: 768px) {
+    /* 데스크탑 화면에서 적용할 스타일을 여기에 추가하세요 */
+    body {
+        font-size: 16px;
+        margin: 20px;
+    }
+    /* 다른 데스크탑 화면 스타일 추가 */
+}
+
+/* 모바일 화면 스타일 */
+@media screen and (max-width: 767px) {
+    /* 모바일 화면에서 적용할 스타일을 여기에 추가하세요 */
+    body {
+        font-size: 10px;
+        margin: 5px;
+    }
+    /* 다른 모바일 화면 스타일 추가 */
+}
