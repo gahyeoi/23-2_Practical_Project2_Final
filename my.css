@@ -46,7 +46,7 @@ input[type="date"] {
         margin: 3px;
     }
 
-    .nav nav-pills .nav-pills{
+    .nav nav-pills .nav-item{
         flex-direction: column;
         align-items: center;
         text-align: center;
