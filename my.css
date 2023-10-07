@@ -53,6 +53,9 @@ input[type="date"] {
     .navnav-pills {
         flex-direction: column;
     }
+    .nav-item{
+        align-items: center;
+    }
     .nav-pills .nav-item {
         margin: 10px 0;
     }
