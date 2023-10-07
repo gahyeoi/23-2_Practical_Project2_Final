@@ -29,8 +29,9 @@ input[type="date"] {
     padding: 5px;
     margin-top: 5px;
 }
-textarea{
-    width: 100%;
+#content {
+    width: 90%; /* 텍스트 박스의 넓이를 원하는 크기로 조정하세요. */
+    margin: 0 auto; /* 가운데 정렬을 위해 margin을 설정합니다. */
 }
 @media screen and (min-width: 768px) {
    
