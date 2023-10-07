@@ -43,8 +43,8 @@ input[type="date"] {
 @media screen and (max-width: 767px) {
     /* 모바일 화면에서 적용할 스타일을 여기에 추가하세요 */
     body {
-        font-size: 10px;
-        margin: 5px;
+        font-size: 7px;
+        margin: 3px;
     }
     /* 다른 모바일 화면 스타일 추가 */
 }
