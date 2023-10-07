@@ -43,7 +43,7 @@ input[type="date"] {
 @media screen and (max-width: 767px) {
     body {
         font-size: 10px;
-        margin: 3px;
+        margin: 5px;
     }
 
     .nav nav-pills .nav-item{
