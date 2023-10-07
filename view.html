@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기억을 채우다</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Noto+Serif+KR&display=swap" rel="stylesheet">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .container{
+            width: 100%;
+            font-family: 'Gowun Batang', serif;
+            font-family: 'Noto Serif KR', serif;
+        }
+        .h3{
+            font-size:20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="50" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+              </svg>
+          <a href="home.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">기억을 채우다</span><br></br>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="home.html" class="nav-link active" aria-current="page">About</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link">List</a></li>
+          </ul>
+        </header>
+
+    <p>제목:
+    <id="title">리눅스 해커스 회식</p>
+
+    <p>날씨:
+    <id="weather">맑음</p>
+
+    <p>날짜:
+    <id="date">2023-10-06</p>
+
+    <p>기분:
+    <id="feeling">행복</p>
+
+    <p>일기 내용:
+    <id="content">오늘, 나는 동아리 회식에 처음 참여하게 되었다. 양덕동에 위치한 쿠킹빌리지로 발걸음을 옮겼다. <br></br>
+        메뉴판을 향해 처음 눈에 띈 생각은 '이 정도 가격에는 무슨 이유가 있을까?'였다. 그러나 음식이 차려진 순간, 그런 의문은 사라졌다. 그 가격만큼 풍성한 요리를 제공하는 곳이었다. 정말로 훌륭한 맛을 즐기게 되었다. <br></br>
+        하지만, 조금 문제가 발생했다. 다음 학기에는 동아리 회장이 될 것 같다. 회식에 참여한 목적이 그런 것은 아니었는데 말이다! 원래는 다음 학기에는 랩실에 들어가려 했지만, 그 계획은 조금 미루어야 할 것 같다. <br></br>
+        동아리 내에서 함께 밥 먹는 모임 a.k.a. 밥고를 만들어보면 어떨까? 생각만해도 귀엽겠다!
+    </p>
+
+    <a href="edit.html"><button>수정</button></a>
+
+    <!-- Delete 버튼 추가 -->
+    <button onclick="confirmDelete()">삭제</button>
+
+    <script>
+        function confirmDelete() {
+            const confirmation = confirm('이 일기를 삭제하시겠습니까?');
+            if (confirmation) {
+                // Delete 버튼을 눌렀을 때의 동작을 추가할 수 있습니다.
+                alert('일기를 삭제합니다.');  // 삭제 로직 추가
+            }
+        }
+    </script>
+
+</body>
+</html>
