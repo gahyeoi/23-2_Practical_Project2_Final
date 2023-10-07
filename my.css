@@ -51,7 +51,7 @@ input[type="date"] {
         align-items: center;
         text-align: center;
     }
-    .nav-item {
+    .nav-pills .nav-item {
         margin: 5px 0;
     }
 
